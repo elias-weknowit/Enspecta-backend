@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "slug": {
       "type": "string",
       "required": true
     },
@@ -21,6 +21,10 @@
     },
     "subtitle": {
       "type": "text",
+      "required": true
+    },
+    "title": {
+      "type": "string",
       "required": true
     }
   }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "karriar",
     "pluralName": "karriars",
-    "displayName": "karriar"
+    "displayName": "karriar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
