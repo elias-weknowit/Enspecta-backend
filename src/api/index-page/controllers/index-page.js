@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  karriar controller
+ *  index-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::karriar.karriar');
+module.exports = createCoreController('api::index-page.index-page');

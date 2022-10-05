@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * karriar router.
+ * index-page router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::karriar.karriar');
+module.exports = createCoreRouter('api::index-page.index-page');

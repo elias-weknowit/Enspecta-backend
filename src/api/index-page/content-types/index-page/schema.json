@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "singularName": "index-page",
+    "pluralName": "index-pages",
+    "displayName": "IndexPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "headerMedia": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
