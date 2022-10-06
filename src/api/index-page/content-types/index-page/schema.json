@@ -4,7 +4,8 @@
   "info": {
     "singularName": "index-page",
     "pluralName": "index-pages",
-    "displayName": "IndexPage"
+    "displayName": "IndexPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,13 +19,13 @@
       "type": "text"
     },
     "headerMedia": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     }
   }
 }
